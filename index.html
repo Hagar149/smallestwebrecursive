@@ -12,24 +12,24 @@
 <body>
     <h1>Open the console to see the action!</h1>
     <script>
-        var theCobWeb = {
-            biggestWeb: {
-                item: "comb",
-                biggerWeb: {
-                    items: ["glasses", "paperclip", "bubblegum"],
-                    smallerWeb: {
-                        item: "toothbrush",
-                        tinyWeb: {
-                            items: ["toenails", "lint", "wrapper", "homework"]
-                        }
-                    }
-                },
-                otherBigWeb: {
-                    item: "headphones"
-                },
+        // var theCobWeb = {
+        //     biggestWeb: {
+        //         item: "comb",
+        //         biggerWeb: {
+        //             items: ["glasses", "paperclip", "bubblegum"],
+        //             smallerWeb: {
+        //                 item: "toothbrush",
+        //                 tinyWeb: {
+        //                     items: ["toenails", "lint", "wrapper", "homework"]
+        //                 }
+        //             }
+        //         },
+        //         otherBigWeb: {
+        //             item: "headphones"
+        //         },
 
-            }
-        };
+        //     }
+        // };
 
            // function findItem(itemName, obj){
     //   for (var property in obj){
@@ -45,17 +45,17 @@
     //     }
     //   }
     // };
-    function findItem() {
-      for (var property in theCobWeb) {
-        if(theCobWeb.hasOwnProperty(property)){
-          if(typeof theCobWeb[property] == "object"){
-            console.log(theCobWeb[property]);
-          } 
-        }
-      }
-    }
+    // function findItem() {
+    //   for (var property in theCobWeb) {
+    //     if(theCobWeb.hasOwnProperty(property)){
+    //       if(typeof theCobWeb[property] == "object"){
+    //         console.log(theCobWeb[property]);
+    //       } 
+    //     }
+    //   }
+    // }
 
-    findItem();
+    // findItem();
     </script>
 </body>
 </html>
